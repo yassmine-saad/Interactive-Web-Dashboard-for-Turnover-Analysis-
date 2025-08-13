@@ -1,0 +1,791 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.immg{
+    width: 100%;
+}
+
+nav{
+    width: 100%;
+    background-color: rgba(148, 144, 144, 0.22);
+height: 90px;
+line-height: 75px;
+padding: 0px 120px;
+
+}
+nav ul{
+    list-style: none; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+
+  
+}
+nav ul li{
+    color: black;
+    list-style: none;
+    position: relative;
+    display: inline-block;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 0px 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+nav a{
+    color: #000;
+    font-size: small;
+    font-weight: initial;
+          text-decoration: none;
+          text-transform: uppercase;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav ul li a:hover{
+    background-color: rgba(175, 172, 172, 0.22);
+    width: 40px;
+
+
+}
+
+nav ul li:hover ul{
+    display: block;
+}
+
+nav ul li ul{
+    position: absolute;
+    display: none;
+    background-color: rgba(148, 144, 144, 0.22);
+    border-radius: 0px 0px 5px 5px;
+}
+nav ul li ul li{
+    line-height: 1;
+    width: 300px; 
+    padding: 10px;
+}
+nav ul li ul li a{
+    padding: 10px 16px ;
+
+}
+nav ul li ul li a:hover {
+    background-color: rgba(175, 172, 172, 0.22);
+}
+
+
+
+
+
+/* Styles pour placer le texte sur l'image avec un fond transparent */
+.Bienvenue {
+    color: var(--extra-light, #646478);
+    font: 400 70px/120% "Inknut Antiqua", sans-serif;
+   /* left: 44px;
+    top: 294px;*/
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    top: 40%; /* Déplace le texte vers le milieu vertical */
+    left: 30%; /* Déplace le texte vers le milieu horizontal */
+    transform: translate(-50%, -50%); /* Centre le texte exactement sur l'image */
+    background-color: rgba(255, 255, 255, 0); /* Fond complètement transparent */
+    padding: 10px;
+}
+
+.introduction {
+    font: 400 30px/120% "Imprint MT Shadow", sans-serif;
+    display: flex;
+    justify-content: flex-start;
+  
+    position: absolute;
+    top: 60%; /* Ajustez la position verticale si nécessaire */
+    left: 50%; /* Déplace le texte vers le milieu horizontal */
+    transform: translate(-50%, -50%); /* Centre le texte exactement sur l'image */
+    background-color: rgba(255, 255, 255, 0); /* Fond complètement transparent */
+    padding: 10px;
+    width: 90%; /* Ajustez la largeur du texte si nécessaire */
+}
+
+
+
+
+
+.frame1 {
+    background: rgba(193, 105, 105, 0.83);
+    width: 710px;
+    height: 328px;
+    position: absolute;
+    left: 293px;
+    top: 1202px;
+    overflow: hidden;
+  }
+  .frame2 {
+    background: rgba(145, 78, 78, 0.22);
+    width: 707px;
+    height: 226px;
+    position: absolute;
+    left: 112px;
+    top: 1403px;
+    overflow: hidden;
+  }
+  .serv1-2 {
+    color: #000000;
+    text-align: left;
+    font: 400 20px/120% "Crete Round", sans-serif;
+    position: absolute;
+    left: 150px;
+    top: 1400px;
+    width: 639px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+  }
+  .serv1-1 {
+    color: #000000;
+    text-align: left;
+    font: 400 50px/120% "Crete Round", sans-serif;
+    position: absolute;
+    left: 36px;
+    top: 1266px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  
+  }
+  .image-serv1 {
+    width: 545px;
+    height: 382px;
+    position: absolute;
+    left: 879px;
+    top: 1226px;
+  }
+  .frame3 {
+    background: rgba(193, 142, 105, 0.49);
+    width: 710px;
+    height: 328px;
+    position: absolute;
+    left: 293px;
+    top: 1797px;
+    overflow: hidden;
+  }
+  .foot {
+    background: rgba(148, 144, 144, 0.22);
+    width: 1440px;
+    height: 200px;
+    position: absolute;
+    left: 0px;
+    top: 2900px;
+    overflow: hidden;
+  }
+  
+  .frame4 {
+    background: rgba(145, 78, 78, 0.22);
+    width: 707px;
+    height: 226px;
+    position: absolute;
+    left: 112px;
+    top: 1998px;
+    overflow: hidden;
+  }
+  .serv2-2 {
+    color: #000000;
+    text-align: left;
+    font: 400 20px/120% "Crete Round", sans-serif;
+    position: absolute;
+    left: 112px;
+    top: 1979px;
+    width: 639px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+  }
+  .serv2-1 {
+    color: #000000;
+    text-align: left;
+    font: 400 49px/120% "Crete Round", sans-serif;
+    position: absolute;
+    left: 36px;
+    top: 1861px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+  }
+  .image-serv2 {
+    width: 582px;
+    height: 388px;
+    position: absolute;
+    left: 842px;
+    top: 1809px;
+  }
+  .frame5 {
+    background: rgba(193, 105, 105, 0.49);
+    width: 710px;
+    height: 328px;
+    position: absolute;
+    left: 293px;
+    top: 2336px;
+    overflow: hidden;
+}
+  .frame6 {
+    background: rgba(145, 78, 78, 0.22);
+    width: 707px;
+    height: 226px;
+    position: absolute;
+    left: 112px;
+    top: 2537px;
+    overflow: hidden;
+
+  }
+  .serv3-2 {
+    color: #000000;
+    text-align: left;
+    font: 400 20px/120% "Crete Round", sans-serif;
+    position: absolute;
+    left: 112px;
+    top: 2506px;
+    width: 639px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+  }
+  .serv3-1 {
+    color: #000000;
+    text-align: left;
+    font: 400 50px/120% "Crete Round", sans-serif;
+    position: absolute;
+    left: 36px;
+    top: 2400px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  
+  }
+  .image-serv3 {
+    width: 582px;
+    height: 377px;
+    position: absolute;
+    left: 842px;
+    top: 2372px;
+  }
+  .email {
+    width: 53px;
+    height: 56px;
+    position: absolute;
+    left: 600px;
+    top: 2970px; }
+ .fb {
+        width: 48px;
+        height: 44px;
+        position: absolute;
+        left: 700px;
+        top: 2970px;}
+        .tweet {
+            width: 50px;
+            height: 46px;
+            position: absolute;
+            left: 800px;
+            top: 2970px;
+          }
+          .linkdin {
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            left: 900px;
+            top: 2970px;
+                      }
+    .seemore{
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      left: 750px;
+      top: 2870px;
+      
+    }
+
+
+    /*///////////////////////////////////ESPACE ADMIN///////////////////////////////////////////////////////////////////////////////////*/
+    body {
+      margin: 0;
+      padding: 0;
+      /*background-image: url('C:\\Users\\b123s\\OneDrive\\Images\\téléchargement.jpg'); /* Chemin vers l'image */
+      background-color: aliceblue;
+      background-size: cover; /* Ajustez la taille de l'image pour couvrir tout l'arrière-plan */
+      background-repeat: no-repeat; /* Empêche la répétition de l'image de fond */
+  }
+  
+  .navbarcnx {
+      background: rgba(148, 144, 144, 0.22);
+      width: 1440px;
+      height: 120px;
+      overflow: hidden;
+      position: absolute;
+      left: 0;
+      top: 0;
+      padding: 50px;
+      display: flex;
+      position: absolute;
+      justify-content: space-between;
+      width: 100%;
+      box-sizing: border-box;
+      list-style: none;
+      background-color: rgba(255, 255, 255, 0.7); /* Ajoute un fond semi-transparent */
+  }
+      .navbarcnx a {
+        color: #000;
+        font-size: large;
+        font-weight: initial;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+    
+      }
+      .navbarcnx .nav-links-cnx ul li a {
+        font-size: small;
+      }
+      .navbarcnx .nav-links-cnx ul {
+        display: flex;
+        font-size: small;
+        left: 200px;
+  
+      }
+      .navbarcnx .nav-links-cnx ul li {
+        margin: 0 20px;
+        align-items : center;
+        font-size: small;
+  
+      }
+      .navbarcnx .nav-links-cnx  {
+          display: flex;
+          align-items : center;
+          font-size: small;
+  
+      
+        }
+        .navbarcnx ul li  {
+         list-style: none;
+         font-size: small;
+  
+        
+        }
+        .navbarcnx .logo {
+          font-size: x-large;
+          font-weight: bold;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+        }
+  
+  
+  /* Styles CSS pour le fil d'Ariane (breadcrumb) */
+.breadcrumb {
+  margin-top: 140px; /* Espace en haut du fil d'Ariane */
+  text-align: left; /* Alignement horizontal au gauche */
+  list-style: none;
+  margin-left: 20px;
+}
+
+.breadcrumb .lienn {
+  font-size: x-large; /* Taille de police pour les éléments du fil d'Ariane */
+}
+
+.breadcrumb .separator {
+  font-size: x-large; /* Taille de police pour le séparateur "/" */
+  color: rgba(0, 0, 0, 0.61);
+  margin: 0 10px; /* Espacement autour des séparateurs */
+}
+
+.breadcrumb a {
+  text-decoration: none; /* Supprimer la soulignement des liens */
+  color: rgba(0, 0, 0, 0.61);
+  font-weight: bold; /* Rendre le texte en gras */
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline; /* Soulignement lors du survol des liens */
+}
+
+   
+ 
+.modif1 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 188px;
+  top: 172px;
+}
+.supprimer1 {
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  left: 222px;
+  top: 171px;
+}
+.cadre1 {
+  background: rgba(255, 255, 255, 0.7);/*#fef5f5;*/
+  width: 243px;
+  height: 200px;
+  position: absolute;
+  left: 800px;
+  top: 230px;
+  overflow: hidden;
+  border-radius: 20px
+}
+.visage1 {
+  border-radius: 94px;
+  width: 139px;
+  height: 112px;
+  position: absolute;
+  left:   850px;
+  top: 150px;
+}
+.identifiant1 {
+  color: #000000;
+  text-align: left;
+  font: 400 16px/120% "Inknut Antiqua", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 45px;
+  margin-left: 30px;
+}
+/*//////////////////////////////////////////////*/
+
+.modif2 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 188px;
+  top: 172px;
+}
+.supprimer2 {
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  left: 222px;
+  top: 171px;
+}
+.cadre2 {
+  background: rgba(255, 255, 255, 0.7);
+  width: 243px;
+  height: 200px;
+  position: absolute;
+  left: 1076px;
+  top: 230px;
+  overflow: hidden;
+  border-radius: 20px
+}
+.visage2 {
+  border-radius: 94px;
+  width: 139px;
+  height: 112px;
+  position: absolute;
+  left:   1124px;
+  top: 150px;
+}
+.identifiant2 {
+  color: #000000;
+  text-align: left;
+  font: 400 16px/120% "Inknut Antiqua", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 45px;
+  margin-left: 30px;
+}
+
+
+/*//////////////////////////////////////////////*/
+
+
+
+.modif {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 188px;
+  top: 172px;
+}
+.supprimer {
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  left: 222px;
+  top: 171px;
+}
+
+.modifli{
+  list-style: none;
+}
+.cadre {
+  background: rgba(255, 255, 255, 0.7);
+  width: 243px;
+  height: 200px;
+  position: absolute;
+  left: 524px;
+  top: 230px;
+  overflow: hidden;
+  border-radius: 20px
+}
+.visage {
+  border-radius: 94px;
+  width: 139px;
+  height: 112px;
+  position: absolute;
+  left: 576px;
+  top: 150px;
+}
+.identifiant {
+  color: #000000;
+  text-align: left;
+  font: 400 16px/120% "Inknut Antiqua", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 45px;
+  margin-left: 30px;
+}
+
+
+/*//////////////////////////////////////////////*/
+
+
+.modif3 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 188px;
+  top: 172px;
+}
+.supprimer3 {
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  left: 222px;
+  top: 171px;
+}
+
+.modifli{
+  list-style: none;
+}
+.cadre3 {
+  background:rgba(255, 255, 255, 0.7);
+  width: 243px;
+  height: 200px;
+  position: absolute;
+  left: 524px;
+  top: 500px;
+  overflow: hidden;
+  border-radius: 20px
+}
+.visage3 {
+  border-radius: 94px;
+  width: 139px;
+  height: 112px;
+  position: absolute;
+  left: 576px;
+  top: 420px;
+}
+.identifiant3 {
+  color: #000000;
+  text-align: left;
+  font: 400 16px/120% "Inknut Antiqua", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 45px;
+  margin-left: 30px;
+}
+/*///////////////////////CADRE AJOUT//////////////////////////////*/
+.frame-aj {
+  background: rgba(255, 255, 255, 0.7);
+  width: 188px;
+  height: 153px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  left: 800px;
+  top: 325px;
+}
+.logo-ajout {
+  width: 123px;
+  height: 123px;
+  position: absolute;
+  left: 32px;
+  top: 18px;
+}
+
+.ajcomm{
+  list-style: none;
+}
+/*////////////////////////////////////////////////////////////////::INTERFACE ajoutComm//////////////////////////////// */
+.line {
+  border-left: 1px solid #000; /* Couleur de la ligne verticale (noir dans cet exemple) */
+  height: 580px; /* Hauteur de la ligne verticale (ajustez selon vos besoins) */
+  margin-left: 480px;
+  margin-top: -50px;
+}
+.forum-aj-Comm{
+  margin-left: 600px;
+  top: 200px;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.7); 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+            width: 700px;
+            height: 500px;
+}
+
+/* Appliquer une marge en bas aux éléments label et input */
+.forum-aj-Comm label,
+.forum-aj-Comm input {
+    margin-bottom: 20px; /* Ajustez la valeur de la marge selon vos besoins */
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.forum-aj-Comm input{
+  border-radius: 20px;
+  border-color: blanchedalmond;
+
+}
+
+
+.suiv-li{
+  float: right;
+  margin-right: 10px;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+
+}
+
+.suiv-lii{
+  list-style: none;
+}
+
+
+.aj-im{
+  position: absolute;
+  top: 30px;
+  left: 600px;
+  width: 40px;
+}
+
+
+
+/*////////////////////////////////////////////////////////SUIVANT AJOUT///////////////////////////////////////////////*/
+
+
+.frame-liste2 {
+  background: #e6e3e4;
+  border-radius: 100px;
+  /*padding: 32px 80px 32px 80px;*/
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 269px;
+  height: 78px;
+  position: relative;
+}
+.imlistePros {
+  flex-shrink: 0;
+  width: 42px;
+  height: 41px;
+  position: relative;
+  left: -10px;
+}
+.listePros {
+  color: #000000;
+  text-align: left;
+  font: 400 18px/120% "Kaisei Decol", sans-serif;
+  position: relative;
+}
+
+.liiis a{
+  text-decoration: none;
+}
+
+
+.frame-liste1 {
+  background: #e6e3e4;
+  border-radius: 100px;
+  /*padding: 32px 80px 32px 80px;*/
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 269px;
+  height: 78px;
+  position: relative;
+  margin-bottom: 20px;
+
+}
+.imlisteCli {
+  flex-shrink: 0;
+  width: 42px;
+  height: 41px;
+  position: relative;
+  left: -30px;
+
+}
+.listeCli {
+  color: #000000;
+  text-align: left;
+  font: 400 18px/120% "Kaisei Decol", sans-serif;
+  position: relative;
+  left: -30px;
+  align-self: center;
+
+}
+
+.mdpp{
+  margin-left: 600px;
+ margin-top: -500px;
+ position: absolute;
+}
+
+.liiis{
+  position: absolute;
+  margin-left: 600px;
+  margin-top: -400px;
+
+}
+
+.mdpComm{
+  border-radius: 20px;
+  border-color: blanchedalmond;
+}
+
+.aj-button{
+  top: 600px;
+  position: absolute;
+  left: 850px;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/*///////////////////////////////////////////////////////////////////////////*/
+.ajj-button{
+  position: absolute;
+  left: 600px;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+

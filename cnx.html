@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stylee.css">
+    </head>
+    <body>
+<div class="desktop-2">
+   <header>
+    <nav class="navbarcnx">
+        <li> <a href="pr.html" class="logo" >Customercial</a></li>
+
+        <div class="nav-links-cnx">
+      <ul>
+        <li> <a href="#" >Données</a></li>
+        <li> <a href="#" >Services</a></li>
+        <li> <a href="#" >Ressources</a></li>
+        <li> <a href="#" >Contacts</a></li>
+
+      </ul>
+        </div>
+    </header>
+    <section>
+      <form class="forum">
+        <label for="username"></label> 
+        <input type="text" placeholder="Nom d'utilisateur" name="username" required class="nom">
+        <label for="mdp"></label>
+        <input type="password" placeholder="********" name="password" minlength="8" required class="pass">
+
+        <button type="submit" class="login-button">Se connecter</button>
+      </form>
+
+    </section>
+
+
+</div>
+  <script>
+const usernameInput = document.querySelector('.nom');
+const passwordInput = document.querySelector('.pass');
+
+// Add click event listeners to change color when clicked
+usernameInput.addEventListener('click', () => {
+  usernameInput.style.color = '#ffffff'; // Change color when clicked
+});
+
+passwordInput.addEventListener('click', () => {
+  passwordInput.style.color = '#ffffff'; // Change color when clicked
+});
+
+  </script>
+    </body>
+</html>
+  

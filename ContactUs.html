@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styleeh.css">
+</head>
+<body>
+
+<nav class="navbarcnx">
+    <li> <a href="pr.html" class="logo" >Customercial</a></li>
+
+    <div class="nav-links-cnx">
+  <ul>
+    <li> <a href="#" >Données</a></li>
+    <li> <a href="#" >Services</a></li>
+    <li> <a href="#" >Ressources</a></li>
+    <li> <a href="#" >Contacts</a></li>
+
+  </ul>
+    </div>
+</nav>
+<h2>Contact us</h2>
+<div class="contacts">
+    <form class="forum">
+      <label for="Nom & prénom"></label> 
+      <input type="text" placeholder="Nom & prénom" name="nompre" required class="nompre">
+      <br />
+
+      <label for="email"></label>
+      <input type="email" placeholder="exemple@gmail.com" name="email" required class="emailus">
+      
+      <label for="number"></label>
+      <input type="text" placeholder="Numéro de téléphone" name="Numéro" required class="numberus">
+
+      <br />
+      <label for="comment"></label>
+      <textarea name="comment" cols="30" rows="5" class="comment" placeholder="Messages"></textarea>
+      <br />
+        <button type="submit" class="env-button">Envoyer</button>
+
+    </form>
+    <div class="imagess">
+<img src="C:\Users\b123s\OneDrive\Images\fb.png" class="fbc">
+<img src="C:\Users\b123s\OneDrive\Images\tweet.png" class="tc">
+<img src="C:\Users\b123s\OneDrive\Images\linkdin.png" class="lc">
+
+</div>
+
+</div>
+
+    <img src="C:\Users\b123s\OneDrive\Images\map.png" alt="Image" id="imageLocalisation" class="local">
+    
+    <script>
+        // Fonction qui affiche la localisation lorsque l'image est cliquée
+        document.getElementById("imageLocalisation").addEventListener("click", function() {
+            // Remplacez "adresse+de+votre+localisation" par l'adresse que vous souhaitez afficher
+            var adresseLocalisation = "adresse+de+votre+localisation";
+            
+            // Ouvrir une nouvelle fenêtre ou un nouvel onglet avec la carte Google Maps
+            window.open("https://www.google.com/maps/dir/35.762204,10.8338599/axia/@35.7409042,10.5461643,11z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x12fdf5a0cbe0da4b:0x944e260835beb32e!2m2!1d10.5911876!2d35.7498239?entry=ttu" + adresseLocalisation);
+        });
+    </script>
+
+
+</body>
+</html>
